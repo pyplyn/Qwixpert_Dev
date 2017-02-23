@@ -200,14 +200,21 @@
                         <div class="form-group">
                             <input type="url" name="profileLink" class="form-control" placeholder="LinkedIn Profile Link*" required>
                         </div>
+                        <div class="row">
+                        <div class="form-group col-md-7">
+                            <textarea name="message" rows="5" class="form-control" placeholder="Tell us about yourself* (Max. 250 Characters)" required></textarea>
+                        </div>
+                        <div class="col-md-5">
                         <p>Upload Your Resume</p>
                         <div class="form-group">
 							<input type="file" name="resume"  placeholder="Upload Your Resume">
                         </div>
+                        </div>
+                        </div>
 						<p>*Mandatory</p>
                    
 
-                         <div class="form-group text-center">
+                         <div class="form-group text-center col-md-12">
                             <button type="submit" class="btn btn-primary ">Get Started</button>
                         </div>
 
@@ -280,7 +287,7 @@
 
                                 <div class="footer-form" >
                                     
-                                    <form action="php/mail.php" class="ajax-form">
+                                    <form action="http://formspree.io/contact.qwixpert@gmail.com" class="" method="post">
                                         <div class="form-group">
                                             <input type="email" name="email" class="form-control" placeholder="E-mail" required>
                                         </div>
